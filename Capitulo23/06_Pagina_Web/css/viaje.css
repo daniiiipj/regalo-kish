@@ -1,0 +1,63 @@
+#viaje{
+
+    height:100vh;
+
+    background-color:#050505;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+.contenido-viaje{
+
+    text-align:center;
+
+}
+#viaje h2{
+
+    color:white;
+
+    font-size:70px;
+
+    margin-bottom:20px;
+
+}
+#viaje p{
+
+    color:#bbbbbb;
+
+    font-size:22px;
+
+    line-height:1.6;
+
+}
+
+@keyframes flotar{
+
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(-10px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+
+}
+@keyframes viajar{
+
+    from{
+        left:0;
+    }
+
+    to{
+        left:210px;
+    }
+
+}

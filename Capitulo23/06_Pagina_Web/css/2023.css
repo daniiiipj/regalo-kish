@@ -1,0 +1,110 @@
+#capitulo1{
+
+    min-height:100vh;
+
+   background:#0d0d0d;
+
+    color:white;
+
+    padding:80px 20px;
+
+    display:flex;
+    flex-direction:column;
+
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+}
+
+#capitulo1 h2{
+
+    color:white;
+
+    font-size:72px;
+
+    margin:0;
+
+}
+
+.numero-capitulo{
+
+    color:#c9b37e;
+
+    letter-spacing:6px;
+
+    text-transform:uppercase;
+
+    font-size:14px;
+
+    margin-bottom:18px;
+
+}
+
+.subtitulo{
+
+    font-size:24px;
+    color:#cdb58d;
+
+    margin-bottom:50px;
+
+}
+
+.contenido-capitulo{
+    max-width: 600px;
+    padding: 40px;
+}
+.recuerdo-final{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:60px;
+
+    max-width:1100px;
+
+    margin:140px auto 80px;
+
+}
+
+.foto-final img{
+
+    width:380px;
+
+    border-radius:20px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.35);
+
+}
+
+.texto-final{
+
+    max-width:500px;
+
+    text-align:left;
+
+}
+
+.texto-final h3{
+
+    color:#d8c7a3;
+
+    font-size:36px;
+
+    margin-bottom:25px;
+
+}
+
+.texto-final p{
+
+    color:#d8d8d8;
+
+    line-height:1.9;
+
+    font-size:18px;
+
+}
