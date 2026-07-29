@@ -461,7 +461,7 @@ body{
 
     filter: contrast(1.02);
 
-    height: 250px;
+    aspect-ratio: 22 / 25;
 
     object-fit: cover;
 
@@ -1817,6 +1817,28 @@ body{
 
     img{
         max-width:100%;
+    }
+
+    .imagen-mensaje img{
+        width:100%;
+        max-width:320px;
+    }
+
+    .reflexion img{
+        width:100%;
+        max-width:300px;
+    }
+
+    .recuerdo-centro img{
+        width:100%;
+        max-width:300px;
+        height:auto;
+    }
+
+    .fila-kemish img{
+        width:100%;
+        max-width:280px;
+        height:auto;
     }
 
     h1,h2{
