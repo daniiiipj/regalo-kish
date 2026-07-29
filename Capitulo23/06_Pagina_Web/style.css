@@ -1805,3 +1805,104 @@ body{
     font-style:italic;
 
 }
+/* ===========================
+        RESPONSIVE MÓVIL
+=========================== */
+
+@media (max-width:768px){
+
+    body{
+        overflow-x:hidden;
+    }
+
+    h1,h2{
+        font-size:42px !important;
+    }
+
+    p{
+        font-size:18px !important;
+    }
+
+    .contenido-capitulo{
+        padding:0 18px;
+    }
+
+    /* MAPA */
+
+    .mapa-viaje{
+        width:100%;
+        max-width:330px;
+        height:auto;
+    }
+
+    .mapa-png{
+        width:100%;
+        height:auto;
+    }
+
+    .ruta-mapa{
+        width:220px;
+        left:55px;
+        top:25px;
+    }
+
+    .colombia{
+        right:-5px;
+    }
+
+    .mexico{
+        left:-5px;
+    }
+
+    /* GALERÍAS */
+
+    .galeria,
+    .fila-2024,
+    .fila-kemish,
+    .imagenes-dobles,
+    .mensaje-final,
+    .despedida-2024,
+    .reflexion{
+
+        flex-direction:column;
+        align-items:center;
+        gap:35px;
+
+    }
+
+    .recuerdo,
+    .recuerdo-2024,
+    .foto-despedida,
+    .texto-despedida,
+    .texto-reflexion{
+
+        width:100%;
+        max-width:320px;
+
+    }
+
+    .imagenes-dobles img{
+        width:100%;
+    }
+
+    .captura{
+        width:100%;
+    }
+
+    .bloque-viaje{
+
+        width:100%;
+        padding:0 15px;
+        box-sizing:border-box;
+
+    }
+
+    .texto-animado{
+
+        width:100%;
+        box-sizing:border-box;
+        padding:0;
+
+    }
+
+}
